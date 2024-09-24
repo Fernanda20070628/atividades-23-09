@@ -1,5 +1,6 @@
-let numero= Number(console.log ('Digite o numeros desejado'));
+let numero= Number(prompt ('Digite o numeros desejado'));
 while(numero>=1){
-    let fatorial = numero-1
-    console.log(fatorial)
+    let fatorial = numero--
+    var result=result*fatorial
+    console.log(result)
 }
