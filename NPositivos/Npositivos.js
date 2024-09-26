@@ -1,9 +1,9 @@
-do{
-let numero= Number(console.log ('Digite os numeros desejados'));
-if(numero>0){
-    var soma=0
-    soma=soma+numero
+let numero= Number(prompt ('Digite o numero desejado:'))
+while(numero!=0){
+    numero= Number(prompt ('Digite o numero desejado:'))
+    if(numero>0){
+        var soma=0
+        soma=numero+soma
+    }
 }
-}while(numero!=0)
-
-    console.log("A soma é"+soma)
+alert(soma)
