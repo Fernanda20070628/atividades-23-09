@@ -1,6 +1,9 @@
-let numero= Number(prompt ('Digite o numeros desejado'));
-while(numero>=1){
-    let fatorial = numero--
-    var result=result*fatorial
-    console.log(result)
-}
+let numero= Number(prompt ('Digite o numero desejado'));
+let fatorial = 1
+let controle = 1
+while(numero>=controle){
+   fatorial=fatorial*controle
+   controle++
+   } 
+   alert(fatorial)
+    
